@@ -6,7 +6,7 @@
 
 -p
 
-C:\iar\ewarm-9.70.1\arm\config\debugger\ST\STM32H723ZG.ddf
+C:\iar\ewarm-9.70.2\arm\config\debugger\ST\STM32H723ZG.ddf
 
 --drv_verify_download
 

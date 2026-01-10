@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\iar\ewarm-9.70.1\common\bin\cspybat" -f "M:\work_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.general.xcl" --backend -f "M:\work_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.driver.xcl" 
+"C:\iar\ewarm-9.70.2\common\bin\cspybat" -f "D:\ws_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.general.xcl" --backend -f "D:\ws_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\iar\ewarm-9.70.1\common\bin\cspybat" -f "M:\work_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.general.xcl" "--debug_file=%~1" --backend -f "M:\work_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.driver.xcl" 
+"C:\iar\ewarm-9.70.2\common\bin\cspybat" -f "D:\ws_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.general.xcl" "--debug_file=%~1" --backend -f "D:\ws_STM32\STM32H723ZGT6_FreeRTOS_IAR\EWARM\settings\STM32H723ZGT6_FreeRTOS_IAR.STM32H723ZGT6_FreeRTOS_IAR.driver.xcl" 
 
 @echo off 
 :end
